@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-A-Sketch</title>
+</head>
+
+<body>
+
+    <div class="parent-wrapper">
+
+        <main class="main">
+            <h1 class="title">Etch-A-Sketch</h1>
+
+            <div class="board">
+                <div class="control-buttons">
+
+                    <div class="color-picker" title="Color picker">
+                        <input type="color" class="button" id="color">
+                    </div>
+                    <!--END COLOR-PICKER-->
+
+                    <div class="eraser" title="Eraser">
+                        <button class="button" id="eraser"><i class="fa fa-eraser fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                    <!--END ERASER-->
+
+                </div>
+                <!--END CONTROL BUTTONS-->
+
+                <div class="container-wrapper">
+                    <div class="container">
+
+                    </div>
+                </div>
+                <!--END CONTAINER-WRAPPER-->
+
+
+                <div class="delete-and-share">
+                    <div class="delete-button" title="Clear grid">
+                        <button class="button" id="clear"><i class="fa fa-trash-o fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                    <!--END DELETE-BUTTON-->
+
+                    <div class="share" title="Share">
+                        <button class="button" id="share"><i class="fa fa-share-alt fa-2x" aria-hidden="true"></i></button>
+                    </div>
+                    <!--END SHARE-->
+                </div>
+
+            </div>
+            <!--END BOARD-->
+
+            <div class="slider" title="Adjust pixel size">
+                <input type="range" class="range" min="8" max="126" value="16" id="slider">
+            </div>
+            <!--END SLIDER-->
+
+        </main>
+        <!--END MAIN-->
+
+
+        <footer>
+            <p>Developed with <i class="fa fa-heart" aria-hidden="true"></i> by
+                <a href="https://github.com/EmmanuelEffi" target="_blank" class="profile">Effi Emmanuel</a></p>
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+<script src="https://use.fontawesome.com/9337695ab7.js"></script>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<script src="script.js"></script>
+
+</html>
